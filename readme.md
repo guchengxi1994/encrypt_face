@@ -21,3 +21,9 @@ if __name__ == "__main__":
     img = face_encryption2.encrypt(imgpath)
     cv2.imwrite("encrypted2.jpg", img)
 ```
+
+示例：
+
+![image](./test.jpg)
+
+![image](./encrypted2.jpg)
